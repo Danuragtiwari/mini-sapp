@@ -57,7 +57,7 @@ nav {
     display: flex;
     height: 88%;
     flex-direction: column;
-    background-image: url('images/bg.webp');
+    background-image: url('bg.jpg');
     align-items: flex-end;
     position: relative;
     -ms-overflow-style: none;
@@ -220,7 +220,7 @@ nav {
 }
 
 .social .socialItem {
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     background-color: #94bab3;
     cursor: pointer;
