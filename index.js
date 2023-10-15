@@ -83,7 +83,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently In PreFinal @SLIET <br><br>I  code in following languages :<br><span class='bold'>Python<br>C<br>CSS<br>HTML<br>Javascript</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Django<br>Bootstrap</span><br><br>Favourite IDE:<span class='bold'>VSCode</span></span>");
+            sendTextMessage("<span class='sk'>I am currently In Final @SLIET <br><br>I  code in following languages :<br><span class='bold'>Python<br>C<br>CSS<br>HTML<br>Javascript</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Django<br>Bootstrap</span><br><br>Favourite IDE:<span class='bold'>VSCode</span></span>");
             break;
         case "education":
             sendTextMessage("I am Currently pursuing BTECH in ECE from @SLIET,Sangrur <br> Year : 2020-2024<br><br>I have completed my Secondary school from Narayana Junior College,Vizag<br>Passing Year:2020s <br><br>I have completed my High School from Carmel Convent School,Bishrampur<br>Passing Year:2018<br>");
