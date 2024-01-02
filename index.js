@@ -1,5 +1,5 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a href='mailto:www.anuragtiwaritiwari@gmail.com'> <div class='socialItem'><img class='socialItemI' src='gmail.png' alt='width:50px;height:20px;'></div> </a> <a target='_blank' href='https://github.com/Danuragtiwari'> <div class='socialItem'><img class='socialItemI' src='github.png' alt=''></div> </a> <a href='https://www.linkedin.com/in/danurag23s/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='linkedin.png' alt=''></div> </a> </div>";
+var contactString = "<div class='social'> <a href='mailto:work4anurag.tiwari@gmail.com'> <div class='socialItem'><img class='socialItemI' src='gmail.png' alt='width:50px;height:20px;'></div> </a> <a target='_blank' href='https://github.com/Danuragtiwari'> <div class='socialItem'><img class='socialItemI' src='github.png' alt=''></div> </a> <a href='https://www.linkedin.com/in/danurag23s/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='linkedin.png' alt=''></div> </a> </div>";
 var resumeString = "<img src='' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><label>Anurag_resume.pdf</label></div><a href='Anurag_resume.pdf' download='Anurag_resume.pdf'><img class='download' src='download.png'></a></div>";
 var addressString = '<div class="mapview"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.549944728598!2d75.69747551459795!3d30.221390117147923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910f895f5532341%3A0x1ee822a09942ee50!2sBoys%20Hostel%20No.%2010%2C%20Campus%20Rd%2C%20Punjab%20148106!5e0!3m2!1sen!2sin!4v1672913036976!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><label class="add"><address>Sangrur, Punjab, INDIA 14007</address>';
 
@@ -73,7 +73,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Anurag Tiwari</a>.</span><br><br>I am a  <span class='bold'>PreFinal Student @ SLIET</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the Your Organisation.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Anurag Tiwari</a>.</span><br><br>I am a  <span class='bold'>Final Student @ SLIET</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the Your Organisation.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
