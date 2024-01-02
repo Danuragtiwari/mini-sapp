@@ -108,8 +108,8 @@ function waitAndResponce(inputText) {
             sendTextMessage(addressString);
             break;
         case "profiles":
-            sendTextMessage("You Can check my various coding profiles as below:<br><br><div class='social'><a target='_blank' href='https://github.com/Danuragtiwari'><div class='socialItem'><img src='github.png' alt='' style='width: 40px; height: 40px;'><label>Github</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://leetcode.com/Danurag/'><div class='socialItem'><img src='leetcode.png' alt='' style='width: 40px; height: 40px;'><label>LeetCode</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://auth.geeksforgeeks.org/user/danurag'><div class='socialItem'><img src='gfg.jpg' alt='' style='width: 40px; height: 40px;'><label>GeeksForGeeks</label></div></a></div>")
-            break;
+            sendTextMessage("You Can check my various coding profiles as below:<br><br><div class='social'><a target='_blank' href='https://github.com/Danuragtiwari'><div class='socialItem'><img src='github.png' alt='' style='width: 40px; height: 40px;'><label style='font-size: 14px; margin-top: 5px;'>Github</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://leetcode.com/Danurag/'><div class='socialItem'><img src='leetcode.png' alt='' style='width: 40px; height: 40px;'><label style='font-size: 14px; margin-top: 5px;'>LeetCode</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://auth.geeksforgeeks.org/user/danurag'><div class='socialItem'><img src='gfg.jpg' alt='' style='width: 40px; height: 40px;'><label style='font-size: 14px; margin-top: 5px;'>GeeksForGeeks</label></div></a></div>");
+        break;
         default:
             setTimeout(() => {
                 sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know more about usage.");
