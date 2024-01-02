@@ -108,7 +108,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(addressString);
             break;
         case "profiles":
-            sendTextMessage("You Can check my various coding profiles as below:<br><br><div class='social'><a target='_blank' href='https://github.com/Danuragtiwari'> <div class='socialItem'><img class='socialItemI' src='github.png' alt=''><label>Github</label></div> </a></div><br><br><div class='social'><a target='_blank' href='https://leetcode.com/Danurag/'> <div class='socialItem'><img class='socialItemI' src='leetcode.png' alt=''><label>LeetCode</label></div> </a></div><br><br><div class='social'><a target='_blank' href='https://auth.geeksforgeeks.org/user/danurag'> <div class='socialItem'><img class='socialItemI' src='gfg.jpg' alt=''><label>GeeksForGeeks</label></div> </a></div>")
+            sendTextMessage("You Can check my various coding profiles as below:<br><br><div class='social'><a target='_blank' href='https://github.com/Danuragtiwari'><div class='socialItem'><img src='github.png' alt='' style='width: 40px; height: 40px;'><label>Github</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://leetcode.com/Danurag/'><div class='socialItem'><img src='leetcode.png' alt='' style='width: 40px; height: 40px;'><label>LeetCode</label></div></a></div><br><br><div class='social'><a target='_blank' href='https://auth.geeksforgeeks.org/user/danurag'><div class='socialItem'><img src='gfg.jpg' alt='' style='width: 40px; height: 40px;'><label>GeeksForGeeks</label></div></a></div>")
             break;
         default:
             setTimeout(() => {
